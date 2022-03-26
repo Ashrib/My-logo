@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(218, 68, 68);
+    display: inline-block;
+    box-shadow: 0px 2px 5px rgb(202, 199, 199);
+}
+
+.logo{
+    float: left;
+    width: 10%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.logo span{
+    color: rgb(240, 225, 208);
+    font-size: 1.6em;
+    font-family: 'Trebuchet MS';
+    text-shadow: 1px 5px 6px rgb(51, 38, 38);
+    font-weight: bold;
+}
+.links{
+    float: left;
+    width: 50%;
+    height: inherit;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.links ul li{
+    display: inline;
+    margin: auto 5px;
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+.links ul li:hover{
+   background-color: rgb(255, 0, 0);
+   border: 1px solid black;
+   border-radius: 20px;
+}
+.searchbar{
+    float: left;
+    width: 20%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.searchbar input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.0em;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 3px 6px rgb(58, 54, 54);
+    
+}
+.searchbar input:hover{
+    background-color: lightgray;
+}
+.searchbar input:focus{
+    background-color: lightgray;
+}
+.buttons{
+    float: right;
+    width: 15%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.buttons button{
+    border: none;
+    padding: 5px 8px 5px 8px;
+    font-size: 1.0em;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.buttons button:hover{
+    color: #fff;
+    background-color: rgb(237, 182, 100);
+}
+.or{
+    color: white;
+    font-weight: bold;
+}
